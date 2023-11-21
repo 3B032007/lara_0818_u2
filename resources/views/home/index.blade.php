@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>lara_0818_u2</title>
-    </head>
-<body>
-    @extends('layouts.master')
-    @section('title','Home')
-    @include('layouts.partials.navigation')
-    @section('content')
+@extends('layouts.master')
+@section('title','Home')
+@section('content')
     <h1>Home</h1>
-    <p>Thisismybodycontent.</p>
-    @endsection
-</body>
-</html>
+    <p>This is my body content.</p>
+@endsection
+
